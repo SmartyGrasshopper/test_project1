@@ -11,6 +11,7 @@ a:hover{
 }
 
 img{
+  display: block;
   width:90vw;
 }
 
@@ -20,4 +21,11 @@ html{
 
 body{
   margin: 1vw;
+  border: 2px solid black;
+  padding: 1vw;
+}
+
+h2{
+  text-shadow: 3px 3px 5px rgb(144, 144, 144);
+  margin: 0;
 }
