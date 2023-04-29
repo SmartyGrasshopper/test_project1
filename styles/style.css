@@ -12,7 +12,8 @@ a:hover{
 
 img{
   display: block;
-  width:90vw;
+  max-width:90vw;
+  min-width: 50vw;
 }
 
 html{
