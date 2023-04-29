@@ -1,1 +1,1 @@
-//document.querySelector('h2').textContent = 'Changed with Javascript!';
+document.querySelector('h2').textContent = 'An image showing an instance of Julia-Sets.';
