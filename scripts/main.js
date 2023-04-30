@@ -2,7 +2,7 @@
 //let name = prompt("What is your name?"); // just checking prompt function
 
 let a = localStorage.getItem('imageNum');
-if(!a) a = 0;   // if a is not stored earlier
+if (!a) a = 0;   // if a is not stored earlier
 else a = parseInt(a);
 
 let total = 4;
@@ -13,13 +13,13 @@ let images = [
     "radialSineWaveSurface.png"
 ]
 
-document.getElementById('juliaImage').setAttribute('src', 'images/'+images[a]);  //setting the image to last one being viewed
+document.getElementById('juliaImage').setAttribute('src', 'images/' + images[a]);  //setting the image to last one being viewed
 
 
 document.getElementById("juliaImage").addEventListener("click", () => {
     a += 1;
-    if(a === total) a = 0;
-    document.getElementById('juliaImage').setAttribute('src', 'images/'+images[a]);
+    if (a === total) a = 0;
+    document.getElementById('juliaImage').setAttribute('src', 'images/' + images[a]);
     localStorage.setItem('imageNum', a);
 });
 
