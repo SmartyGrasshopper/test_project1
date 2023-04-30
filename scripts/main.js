@@ -1,5 +1,4 @@
 //document.querySelector('h2').textContent = 'An image showing an instance of Julia-Sets.';
-alert(message = 'Welcome! Click on the image to cycle between images.');
 //let name = prompt("What is your name?"); // just checking prompt function
 
 let a = localStorage.getItem('imageNum');
@@ -23,3 +22,5 @@ document.getElementById("juliaImage").addEventListener("click", () => {
     document.getElementById('juliaImage').setAttribute('src', 'images/'+images[a]);
     localStorage.setItem('imageNum', a);
 });
+
+alert(message = 'Welcome! Click on the image to cycle between images.');
