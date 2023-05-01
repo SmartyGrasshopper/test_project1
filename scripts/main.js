@@ -14,12 +14,14 @@ let images = [
 ]
 
 document.getElementById('juliaImage').setAttribute('src', 'images/' + images[a]);  //setting the image to last one being viewed
+document.getElementById('imageLink').setAttribute('href', 'images/' + images[a]);
 
 
 document.getElementById("juliaImage").addEventListener("click", () => {
     a += 1;
     if (a === total) a = 0;
     document.getElementById('juliaImage').setAttribute('src', 'images/' + images[a]);
+    document.getElementById('imageLink').setAttribute('href', 'images/' + images[a]);
     localStorage.setItem('imageNum', a);
 });
 
