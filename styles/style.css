@@ -11,10 +11,17 @@ a:hover {
 }
 
 img {
-  display: block;
+  display: inline;
   max-width: 90vw;
   min-width: 50vw;
   max-height: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+  display: inline;
+  width: 60vw;
   margin-left: auto;
   margin-right: auto;
 }
