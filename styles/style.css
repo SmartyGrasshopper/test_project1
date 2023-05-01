@@ -30,3 +30,8 @@ h2 {
   text-shadow: 3px 3px 5px rgb(144, 144, 144);
   margin: 0;
 }
+
+pre {
+  background-color: rgb(225, 225, 225);
+  border-radius: 4px;
+}
