@@ -12,18 +12,28 @@ a:hover {
 
 img {
   display: inline;
-  max-width: 90vw;
-  min-width: 50vw;
-  max-height: 95vw;
+  /*max-width: 90%;
+  min-width: 50%;
+  max-height: 95%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
+  width: 90%;
+  margin-left: 5%;
+  max-height: 90%;
 }
 
 video {
   display: inline;
-  width: 60vw;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+audio {
   margin-left: auto;
   margin-right: auto;
+  align-items: center;  /* Don't know why it is not working */
+  align-content: center;
 }
 
 html {
@@ -50,4 +60,9 @@ pre {
 figcaption {
   text-align: center;
   font-weight: 600;
+}
+
+iframe {
+  border: 1px solid grey;
+  width: 100%;
 }
